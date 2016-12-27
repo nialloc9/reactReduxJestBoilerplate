@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "concurrently --kill-others \"./node_modules/.bin/webpack-dev-server --content-base src --inline --hot\" \"webpack --watch\""
+    "dev": "concurrently --kill-others \"./node_modules/.bin/webpack-dev-server --content-base --inline --hot\" \"webpack --watch\""
   },
   "author": "Niall O Connor",
   "license": "ISC",
